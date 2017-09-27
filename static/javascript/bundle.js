@@ -39886,7 +39886,7 @@ const participants = {
 	    key: 'getBase',
 	    value: function getBase(callback) {
 	      var image = document.createElement('img');
-	      image.src = 'static/images/base.png';
+	      image.src = 'static/images/base.jpg';
 	      image.onload = callback.bind(this, image);
 	    }
 	  }, {
