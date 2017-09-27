@@ -4,7 +4,10 @@ import {render} from 'react-dom';
 import AbInput from './components/form/ab.input.jsx';
 import AbButton from './components/form/ab.button.jsx';
 import getParticipants from './components/participants';
-import Certificate from './components/certificate.jsx';
+import Certificate from './components/certificate.jsx';import React from 'react';
+import classNames from 'classnames';
+import {render} from 'react-dom';
+import AbInput from './components/form/ab.input.jsx';
 
 class Abduct extends React.Component {
     constructor(){
@@ -30,7 +33,7 @@ class Abduct extends React.Component {
 
     getIdleForm(errorEl) {
       return <div className={classNames('ab-header', {'ready': this.state.appReady} )} >
-                <span className="animation-at-3"> 3º Seminário Internacional Desfazendo Gênero </span>
+                <span className="animation-at-3"> Desfazendo Gênero </span>
                 {errorEl}
                 <AbInput
                   ref={(abInput) => {this._email = abInput}}
