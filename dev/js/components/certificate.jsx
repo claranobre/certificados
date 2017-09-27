@@ -20,7 +20,7 @@ class Certificate extends React.Component {
 
     getBase(callback) {
       let image = document.createElement('img');
-      image.src = 'static/images/base.png';
+      image.src = 'static/images/base.jpg';
       image.onload = callback.bind(this, image);
     }
     drawImage(context, image) {
