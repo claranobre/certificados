@@ -1,0 +1,23 @@
+@import "bourbon/bourbon"
+@import "components/variables"
+@import "components/common"
+@import "components/form"
+@import "components/gooey"
+@import "components/header"
+
+*
+  font-family: product-sans, sans-serif
+
+body
+  background-color: $medium-tourquise
+  margin: 0
+  padding: 0
+
+@media print
+  .ab-button
+    display: none !important
+  @page
+    size: landscape
+    size: 864px 636.33px
+    margin: 0 0 0 0
+    padding: 0 0 0 0
