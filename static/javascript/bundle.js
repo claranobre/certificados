@@ -77,10 +77,6 @@
 	
 	var _certificate2 = _interopRequireDefault(_certificate);
 	
-	var _lodash = __webpack_require__(/*! lodash */ 187);
-	
-	var _lodash2 = _interopRequireDefault(_lodash);
-	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -101,50 +97,27 @@
 	      appReady: true,
 	      error: false,
 	      proceed: false,
-	      name: '',
-	      names: []
+	      name: ''
 	    };
 	    return _this;
 	  }
 	
 	  _createClass(Abduct, [{
-	    key: 'setParticipant',
-	    value: function setParticipant(name) {
-	      this.setState({ error: false, proceed: true, name: name });
-	    }
-	  }, {
-	    key: 'getAutoComplete',
-	    value: function getAutoComplete() {
-	      var searchArgument = this._email.value;
-	      var names = [];
-	      if (searchArgument.length > 3) {
-	        names = _participants2.default.filterParticipants(searchArgument);
+	    key: 'request',
+	    value: function request() {
+	      var participant = (0, _participants2.default)(this._email.value);
+	      var proceed = false;
+	      var error = _.isUndefined(participant) ? true : false;
+	      if (participant) {
+	        proceed = true;
 	      }
-	      this.setState({ names: names });
-	    }
-	  }, {
-	    key: 'renderAutoComplete',
-	    value: function renderAutoComplete() {
-	      var _this2 = this;
 	
-	      var names = [];
-	      _lodash2.default.forEach(this.state.names, function (participant, index) {
-	        names.push(_react2.default.createElement(
-	          'li',
-	          { key: index, onClick: _this2.setParticipant.bind(_this2, participant.member.name) },
-	          participant.member.name
-	        ));
-	      });
-	      return _react2.default.createElement(
-	        'ul',
-	        null,
-	        names
-	      );
+	      this.setState({ error: error, proceed: proceed, name: participant });
 	    }
 	  }, {
 	    key: 'getIdleForm',
 	    value: function getIdleForm(errorEl) {
-	      var _this3 = this;
+	      var _this2 = this;
 	
 	      return _react2.default.createElement(
 	        'div',
@@ -152,24 +125,22 @@
 	        _react2.default.createElement(
 	          'span',
 	          { className: 'animation-at-3' },
-	          ' Desfazendo G\xEAnero '
+	          ' ',
+	          '3º Seminário Internacional Desfazendo Gênero',
+	          ' '
 	        ),
 	        errorEl,
 	        _react2.default.createElement(_abInput2.default, {
 	          ref: function ref(abInput) {
-	            _this3._email = abInput;
+	            _this2._email = abInput;
 	          },
-	          onChange: this.getAutoComplete.bind(this),
 	          className: 'animation-at-2 ab-entrance',
-	          placeholder: 'Digite aqui seu nome' }),
+	          placeholder: 'Email' }),
 	        _react2.default.createElement(
-	          'div',
-	          { className: 'auto-complete' },
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'content' },
-	            this.renderAutoComplete()
-	          )
+	          _abButton2.default,
+	          { onClick: this.request.bind(this),
+	            className: 'animation-at-1 ab-entrance' },
+	          ' Solicitar Certificado '
 	        )
 	      );
 	    }
@@ -182,7 +153,7 @@
 	        errorEl = _react2.default.createElement(
 	          'p',
 	          { className: 'animation-at-1 ab-entrance' },
-	          ' Nome n\xE3o encontrado, por favor verifique o email e tente novamente '
+	          ' Email n\xE3o encontrado, por favor verifique o email e tente novamente '
 	        );
 	      }
 	      if (this.state.proceed) {
