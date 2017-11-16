@@ -41610,7 +41610,7 @@
 	      context.fillStyle = '#444242';
 	      var textSize = context.measureText(this.name);
 	      var xPos = (this.width - textSize.width) / 2;
-	      context.fillText(this.name, xPos, 55);
+	      context.fillText(this.name, xPos, 100);
 	      // textSize = context.measureText(hours);
 	      // xPos = (this.width - textSize.width - 100) / 2;
 	      // context.fillText(hours, xPos, 1180);
