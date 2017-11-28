@@ -39943,7 +39943,7 @@
 	"jhemersonmoraes@gmail.com":"Moraes Barbosa",
 	"lais.marachini@gmail.com":"LaÃ­s Marachini",
 	"reisbadriana@hotmail.com":"Adriana R. Bezerra",
-	"arrudasambrasil@gmail.com":"Arruda GonÃ§alves",
+	"arrudasambrasil@gmail.com":"Arruda Gonçalves",
 	"Tain4gois@gmail.com":"Tainá Gois",
 	"celregis@gmail.com":"Celia Regina Silva",
 	"rodrigues.zandra@gmail.com":"Elizandra Rodrigues do Nascimento",
@@ -40184,7 +40184,7 @@
 	"fontes_psi@hotmail.cm":"Anderson Fontes",
 	"stelad_medeiros@hotmail.com":"Stela Rocha",
 	"tacianovalerio@uol.com.br":"TACIANO VALERIo",
-	"brennakbbf@gmail.com":"Brenna Karla BrandÃ£o Batista Feitosa",
+	"brennakbbf@gmail.com":"Brenna Karla Brandão Batista Feitosa",
 	"bentoleandra@hotmail.com":"Leandra Bento da Silva",
 	"jspasqua@gmail.com":"Juliana Silva Pasqua",
 	"mendesaraujobianca@gmail.com":"Bianca Mendes Araujo",
@@ -40193,7 +40193,7 @@
 	"annamaria.lira@gmail.com":"Anna Maria Pontes",
 	"osvaldinasaraujo@yahoo.com.br":"Osvaldina Dos Santos Araujo",
 	"msvivianev@gmail.com":"Viviane Vergueiro Simakawa",
-	"ricardofortessampaio@hotmail.com":"JosÃ© Ricardo Fortes Sampaio",
+	"ricardofortessampaio@hotmail.com":"José Ricardo Fortes Sampaio",
 	"maria.clebiana@hotmail.com":"MARIA CLEBIANA MARINHO DA SILVa",
 	"brunafrancapsico@gmail.com":"Bruna Aparecida FranÃ§a",
 	"priscilavasconcelos80@gmail.com":"Priscila Vasconcelos",
@@ -41606,7 +41606,7 @@
 	    key: 'drawName',
 	    value: function drawName(context) {
 	      //let hours = '6 horas';
-	      context.font = '45px Arial';
+	      context.font = '40px Arial';
 	      context.fillStyle = '#444242';
 	      var textSize = context.measureText(this.name);
 	      var xPos = (this.width - textSize.width) / 2;
