@@ -40018,7 +40018,7 @@
 	"pinheirorych@gmail.com":"Andecieli Martins",
 	"jukkio@hotmail.com":"Julio Vasconcelos",
 	"luannacalasansss@gmail.com":"Luanna Santana",
-	"clsudiagraca@oi.com.br":"Claudia GraÃ§a",
+	"clsudiagraca@oi.com.br":"Claudia Graça",
 	"mzrodriguez@gmail.com":"RAQUEL RODRIGUEs",
 	"elfontenele@gmail.com":"Érica Do vale",
 	"Jussarafernandesldr@gmail.com":"Jussara Fernandes de Oliveira",
@@ -40253,8 +40253,8 @@
 	"marciorubensoliveira@hotmail.com":"MÃ¡rcio Oliveira",
 	"william.p.rosa@gmail.com":"William Rosa",
 	"lufour@gmail.com":"Luciana Lima L Leite",
-	"jbaptista_neto@uol.com.br":"JosÃ© Baptista de Mello Neto",
-	"lesogon@yahoo.com.br":"Leticia de Souza GonÃ§alves",
+	"jbaptista_neto@uol.com.br":"José Baptista de Mello Neto",
+	"lesogon@yahoo.com.br":"Leticia de Souza Gonçalves",
 	"Cassielly.gba@hotmail.com":"Cassielly Oliveira",
 	"edyroliveirajunior@gmail.com":"Edyr Batista de Oliveira Júnior",
 	"marria.cipriano@bol.com.br":"Maria Cipriano",
@@ -40330,7 +40330,7 @@
 	"marianagonzalezrs@gmail.com":"Mariana Gonzalez RÃ©gio da Silva",
 	"paulosoutom@gmail.com":"Paulo R. Souto Maior Júnior",
 	"ponirinh@hotmail.com":"Sara Hyaponnira Louzeiro Rocha",
-	"mairatristao@gmail.com":"MaÃ­ra TristÃ£o Nogueira",
+	"mairatristao@gmail.com":"Maíra Tristão Nogueira",
 	"mirela_marin_@hotmail.com":"Mirela Marin Morgante",
 	"adaofmonteiro@hotmail.com":"AdÃ£o Freire Monteiro",
 	"niltonator@gmail.com":"jose nilton dos santos",
@@ -41607,6 +41607,8 @@
 	    value: function drawName(context) {
 	      //let hours = '6 horas';
 	      context.font = '40px Arial';
+	      context.textAlign = 'center';
+	      context.fontWeight = 'bold';
 	      context.fillStyle = '#444242';
 	      var textSize = context.measureText(this.name);
 	      var xPos = (this.width - textSize.width) / 2;
