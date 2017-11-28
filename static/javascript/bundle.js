@@ -41606,11 +41606,11 @@
 	    key: 'drawName',
 	    value: function drawName(context) {
 	      //let hours = '6 horas';
-	      context.font = '45px Arial';
+	      context.font = '45 px Arial';
 	      context.fillStyle = '#444242';
 	      var textSize = context.measureText(this.name);
 	      var xPos = (this.width - textSize.width) / 2;
-	      context.fillText(this.name, xPos, 632);
+	      context.fillText(this.name, xPos, 660);
 	      // textSize = context.measureText(hours);
 	      // xPos = (this.width - textSize.width - 100) / 2;
 	      // context.fillText(hours, xPos, 1180);
