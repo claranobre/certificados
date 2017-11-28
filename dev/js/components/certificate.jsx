@@ -34,11 +34,11 @@ class Certificate extends React.Component {
     }
     drawName(context) {
       //let hours = '6 horas';
-      context.font = '50px Arial';
+      context.font = '40px Arial';
       context.fillStyle = '#444242';
       let textSize = context.measureText(this.name);
       let xPos = (this.width - textSize.width) / 2;
-      context.fillText(this.name, xPos, 955);
+      context.fillText(this.name, xPos, 600);
       // textSize = context.measureText(hours);
       // xPos = (this.width - textSize.width - 100) / 2;
       // context.fillText(hours, xPos, 1180);
