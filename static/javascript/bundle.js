@@ -41606,7 +41606,7 @@
 	    key: 'drawName',
 	    value: function drawName(context) {
 	      //let hours = '6 horas';
-	      context.font = '45 px Arial';
+	      context.font = '45px Arial';
 	      context.fillStyle = '#444242';
 	      var textSize = context.measureText(this.name);
 	      var xPos = (this.width - textSize.width) / 2;
