@@ -39,7 +39,7 @@ class Certificate extends React.Component {
       context.fontWeight = 'bold';
       context.fillStyle = '#444242';
       let textSize = context.measureText(this.name);
-      let xPos = (this.width - textSize.width) / 2;
+      let xPos = (this.width - textSize.width - 100) / 2;
       context.fillText(this.name, xPos, 700);
       // textSize = context.measureText(hours);
       // xPos = (this.width - textSize.width - 100) / 2;

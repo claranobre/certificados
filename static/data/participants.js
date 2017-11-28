@@ -218,7 +218,7 @@ const participants = {
 "jad.bert@gmail.com":"Jadiele Berto",
 "indiara_santos@hotmail.com":"Indiara Dos Santos de Jesus",
 "cardosodh8@gmail.com":"Fernando da Silva Cardoso",
-"ialyvbaia@gmail.com":"IALY BAÍa",
+"ialyvbaia@gmail.com":"Ialy Baia",
 "caroline.csociais@gmail.com":"Caroline Santos",
 "brunamelo054@gmail.com":"BRUNA ARAUJo",
 "perazzojr@live.com":"Perazzo Freire da Silva Júnior",

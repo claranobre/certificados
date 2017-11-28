@@ -40130,7 +40130,7 @@
 	"jad.bert@gmail.com":"Jadiele Berto",
 	"indiara_santos@hotmail.com":"Indiara Dos Santos de Jesus",
 	"cardosodh8@gmail.com":"Fernando da Silva Cardoso",
-	"ialyvbaia@gmail.com":"IALY BAÍa",
+	"ialyvbaia@gmail.com":"Ialy Baia",
 	"caroline.csociais@gmail.com":"Caroline Santos",
 	"brunamelo054@gmail.com":"BRUNA ARAUJo",
 	"perazzojr@live.com":"Perazzo Freire da Silva Júnior",
@@ -41611,7 +41611,7 @@
 	      context.fontWeight = 'bold';
 	      context.fillStyle = '#444242';
 	      var textSize = context.measureText(this.name);
-	      var xPos = (this.width - textSize.width) / 2;
+	      var xPos = (this.width - textSize.width - 100) / 2;
 	      context.fillText(this.name, xPos, 700);
 	      // textSize = context.measureText(hours);
 	      // xPos = (this.width - textSize.width - 100) / 2;
