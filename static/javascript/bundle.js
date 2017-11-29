@@ -41606,10 +41606,10 @@
 	    key: 'drawName',
 	    value: function drawName(context) {
 	      context.font = 'bold 40px Arial';
-	      //context.textAlign = 'center';
+	      context.textAlign = 'center';
 	      context.fillStyle = '#444242';
 	      var textSize = context.measureText(this.name);
-	      var xPos = (this.width - textSize.width - 50) / 2;
+	      var xPos = (this.width - textSize.width) / 2;
 	      context.fillText(this.name, xPos, 700);
 	    }
 	  }, {
