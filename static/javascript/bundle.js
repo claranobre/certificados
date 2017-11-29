@@ -41605,17 +41605,12 @@
 	  }, {
 	    key: 'drawName',
 	    value: function drawName(context) {
-	      //let hours = '6 horas';
-	      context.font = '40px Arial';
+	      context.font = 'bold 40px Arial';
 	      //context.textAlign = 'center';
-	      context.fontWeight = 'bold';
 	      context.fillStyle = '#444242';
 	      var textSize = context.measureText(this.name);
-	      var xPos = (this.width - textSize.width - 100) / 2;
+	      var xPos = (this.width - textSize.width - 50) / 2;
 	      context.fillText(this.name, xPos, 700);
-	      // textSize = context.measureText(hours);
-	      // xPos = (this.width - textSize.width - 100) / 2;
-	      // context.fillText(hours, xPos, 1180);
 	    }
 	  }, {
 	    key: 'paint',
