@@ -40215,15 +40215,15 @@
 	"freitaslari@gmail.com":"Larissa de Lima Freitas",
 	"kiara_cardoso@hotmail.com":"Kiara Cardoso",
 	"aidacarneirobr@gmail.com":"Aida Carneiro",
-	"agnes.acs@hotmail.com":"Ãgnes Souza",
-	"anasalza@gmail.com":"ana valeria salza vasconcelos",
+	"agnes.acs@hotmail.com":"Agnes Souza",
+	"anasalza@gmail.com":"Ana Valeria Salza Vasconcelos",
 	"denise_baraujo@hotmail.com":"Denise Bastos",
 	"carolb__@hotmail.com":"Dulce Barros",
 	"glaubersalomaoleite@gmail.com":"glauber salomao leite",
 	"emilia__dantas@hotmail.com":"Emília Dantas Maia",
 	"giselepdeoliveira@uol.com.br":"GISELE PEREIRA DE OLIVEIRa",
 	"christianonvamorim@gmail.com":"Christiano das Neves Viana Amorim",
-	"moisescfonseca@gmail.com":"MoisÃ©s Silva",
+	"moisescfonseca@gmail.com":"Moisés Silva",
 	"gustavopassosedu@gmail.com":"Gustavo Passos",
 	"murilomoscheta@me.com":"Murilo Moscheta",
 	"marianatba@gmail.com":"Mariana Arcoverde",
@@ -40234,8 +40234,8 @@
 	"ximenes06@gmail.com":"Ana Ximenes Gomes de Oliveira",
 	"medeirosadiane@gmail.com":"Diane Adelaide Medeiros",
 	"vicenterite26@gmail.com":"Vicente de Puala Nascimento Leite Filho",
-	"patriciaconceicao@gmail.com":"PatrÃ­cia ConceiÃ§Ã£o da Silva",
-	"piasouz36@gmail.com":"MARIA DA PIEDADE MARQUES DE SOUZa",
+	"patriciaconceicao@gmail.com":"Patrícia Conceição da Silva",
+	"piasouz36@gmail.com":"MARIA DA PIEDADE MARQUES DE SOUZA",
 	"luizabandeira.m@gmail.com":"Luiza Bandeira de Mello Vasconcelos",
 	"valpsouza@gmail.com":"Valdimere Pereira de Souza",
 	"arquitetandopalavras@gmail.com":"MagÃ´ Tonhon",
@@ -40263,7 +40263,7 @@
 	"lucasbulgarelli@gmail.com":"Lucas Bulgarelli",
 	"ladaiane@hotmail.com":"Dayane Assis",
 	"carolparreiras@gmail.com":"Carolina Parreiras",
-	"millenaqueiroz22@hotmail.com":"Millena VictÃ³ria de Sousa Faustino Queiroz",
+	"millenaqueiroz22@hotmail.com":"Millena Victória de Sousa Faustino Queiroz",
 	"priscilareinaldo@outlook.com":"Priscila Reinaldo de Menezes",
 	"edilma.marinho01@gmail.com":"Edilma Marinho",
 	"helma.2010@hotmail.com":"Helma de Melo Cardoso",
@@ -40276,7 +40276,7 @@
 	"bellyziagamas@hotmail.com":"Bellyzia Gama",
 	"mariaclararocha@hotmail.com":"Maria Clara Rocha",
 	"c.magnumlima@gmail.com":"Carlos Magnum Lima de Melo de Melo Sobrinho",
-	"elidaoliveira007@gmail.com":"Ãlida Oliveira",
+	"elidaoliveira007@gmail.com":"Elida Oliveira",
 	"tk.albuquerque@gmail.com":"Thays Albuquerque",
 	"polly.rachel@gmail.com":"Pollyanne Maciel",
 	"sarah.f.lemos@hotmail.com":"Sarah Fernanda Lemos Silva",
@@ -41606,10 +41606,9 @@
 	    key: 'drawName',
 	    value: function drawName(context) {
 	      context.font = 'bold 40px Arial';
-	      context.textAlign = 'center';
 	      context.fillStyle = '#444242';
 	      var textSize = context.measureText(this.name);
-	      var xPos = (this.width - textSize.width) / 2;
+	      var xPos = (this.width - textSize.width - 250) / 2;
 	      context.fillText(this.name, xPos, 700);
 	    }
 	  }, {
