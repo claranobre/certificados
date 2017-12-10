@@ -41608,7 +41608,7 @@
 	      context.font = 'bold 40px Arial';
 	      context.fillStyle = '#444242';
 	      var textSize = context.measureText(this.name);
-	      var xPos = (this.width - textSize.width + 200) / 2;
+	      var xPos = (this.width - textSize.width + 300) / 2;
 	      context.fillText(this.name, xPos, 700);
 	    }
 	  }, {
